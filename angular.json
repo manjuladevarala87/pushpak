@@ -27,7 +27,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/bootstrap.css",
+              "src/styles.css",
+              "src/assets/css/bootstrap-datetimepicker.css",
+              "src/assets/css/desktop-login-style.css",
+              "src/assets/css/fstdropdown.css",
+              "src/assets/css/header-footer.css"
+              
+              
             ],
             "scripts": []
           },

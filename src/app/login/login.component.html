@@ -1,0 +1,64 @@
+<div class="login-main-container">
+    <div class="login-block-tbl">
+      <div class="login-block-row">
+        <div class="login-block-cell">
+          <div class="login-main"> 
+              <div class="col-12 col-xs-12 col-md-12 col-lg-6 login-right">
+              <div class="login-container">
+                  <div class="col-xs-12 leftlogo-div"> 
+                <img src="/assets/images/pushpak-logo.svg" title="PUSHPAK" alt="PUSHPAK"> 
+            </div>
+                <div class="form-container">
+                  <h4>Login</h4>
+                  <form action="" [formGroup]="loginForm">
+                    <div class="form-group">
+                        <label>Username</label>
+                        
+                          <input type="text" placeholder="Enter Username" formControlName="username"> 
+                          <div *ngIf="loginForm.controls['username'] && (loginForm.controls['username'].dirty || loginForm.controls['username'].touched)">
+                          <span class="spnerrorMsg" *ngIf="loginForm.controls['username'].errors?.required">Please enter valid username</span>
+                        </div>
+                     </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input type="password" placeholder="Enter Password" formControlName="password"> 
+                        <div *ngIf="loginForm.controls['password'] && (loginForm.controls['password'].dirty || loginForm.controls['password'].touched)">
+                          <span class="spnerrorMsg" *ngIf="loginForm.controls['password'].errors?.required">Please enter valid password</span>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                      
+                        <div class="captcha"> <img src="/assets/images/captcha.png" width="116" height="36" alt=""/>
+                        <button class="icon-reload"> <img src="/assets/images/icon-reload.svg" alt="reload"></button>
+                        </div>
+                        <div class="form-group">
+                        <label>Enter the Code</label>
+                        <input type="text" placeholder="W68HP" formControlName="enterthecode">
+                        <!-- <span class="spnerrorMsg">Error Message Here</span> --> 
+                        </div>
+                        <div class="form-group">
+                        <div class="linksBlock"> 
+                            <a class="goBtn" (click)="login()">Login</a> 
+                            <div class="clearfix"></div>
+                            <a href="forgot-password.html" (click)="forgetPassword()">Forgot Password ?</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-xs-12 col-md-12 col-lg-6 login-left">
+              <div class="loginleftInner">
+                <div class="col-xs-12 padding-0"> 
+                  <img src="/assets/images/login-img.png" alt="PUSHPAK"> 
+                </div> 
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.5" height="23.5" viewBox="0 0 23.5 23.5">
+  <g id="Group_70" data-name="Group 70" transform="translate(-1667 -1213)">
+    <path id="Icon_ionic-ios-checkbox" data-name="Icon ionic-ios-checkbox" d="M26.042,4.5H6.458A1.956,1.956,0,0,0,4.5,6.458V26.042A1.956,1.956,0,0,0,6.458,28H26.042A1.956,1.956,0,0,0,28,26.042V6.458A1.956,1.956,0,0,0,26.042,4.5Z" transform="translate(1662.5 1208.5)" fill="#d2d2d2"/>
+    <path id="Icon_ionic-ios-checkmark" data-name="Icon ionic-ios-checkmark" d="M21.607,13.213l-.918-.944a.2.2,0,0,0-.146-.063h0a.189.189,0,0,0-.146.063l-6.364,6.411-2.316-2.316a.2.2,0,0,0-.292,0l-.928.928a.208.208,0,0,0,0,.3l2.921,2.921a.924.924,0,0,0,.61.3.968.968,0,0,0,.605-.287h.005l6.974-7.01A.223.223,0,0,0,21.607,13.213Z" transform="translate(1662.658 1208.627)" fill="#fff"/>
+  </g>
+</svg>

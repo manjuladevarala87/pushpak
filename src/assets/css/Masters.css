@@ -1,9 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
 @font-face {
   font-family: "MedusaGothic";
-  src: url("/assets/fonts/MedusaGothic.eot");
-  src: url("/assetsfonts/MedusaGothic.eot?#iefix") format("embedded-opentype"), url("/assetsfonts/MedusaGothic.woff") format("woff"), url("/assetsfonts/MedusaGothic.ttf") format("truetype"), url("/assetsfonts/MedusaGothic.svg#MedusaGothic") format("svg");
+  src: url("../fonts/MedusaGothic.eot");
+  src: url("../fonts/MedusaGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/MedusaGothic.woff") format("woff"), url("../fonts/MedusaGothic.ttf") format("truetype"), url("../fonts/MedusaGothic.svg#MedusaGothic") format("svg");
   font-weight: normal;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
@@ -11,7 +10,7 @@
 }
 @font-face {
   font-family: 'Medusa Gothic';
-  src: url('/assetsfonts/MedusaGothic.woff2') format('woff2'), url('/assetsfonts/MedusaGothic.woff') format('woff');
+  src: url('../fonts/MedusaGothic.woff2') format('woff2'), url('../fonts/MedusaGothic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -110,7 +109,7 @@ img {
 }
 .welComeDescription-inner {
   display: inline-block;
-  background: url(/assets/images/img-leaf.png) no-repeat left top;
+  background: url(../images/img-leaf.png) no-repeat left top;
   padding: 70px 0 40px 252px;
   text-align: left;
 }
@@ -399,32 +398,32 @@ table tr.tbl-total-amt td {
 } */
 /** 01-Nov-2021 ends here **/
 /* .textcheck-input:checked[type=checkbox]{
-  background: url('/assets/images/downloacheck.svg')no-repeat !important;
+  background: url('../images/downloacheck.svg')no-repeat !important;
 }
 .textcheck-input:checked{
   background-color: #0d6efd !important;
   border-color: #0d6efd !important;
 } */
 input[type="radio"]:before {
-  background: url(/assets/images/icon-radio.png) no-repeat;
+  background: url(../images/icon-radio.png) no-repeat;
 }
 input[type="checkbox"]:checked:before, input[type="radio"]:checked:before {
-  background: url(/assets/images/icon-checked.png) no-repeat center center;
+  background: url(../images/icon-checked.png) no-repeat center center;
 }
 input[type="radio"]:checked:before {
-  background: url(/assets/images/icon-radio-checked.png) no-repeat;
+  background: url(../images/icon-radio-checked.png) no-repeat;
 }
 input[type="checkbox"]:disabled:before {
-  background: url(/assets/images/icon-checkbox-disabled.png) no-repeat 5px center;
+  background: url(../images/icon-checkbox-disabled.png) no-repeat 5px center;
 }
 input[type="radio"]:disabled:before {
-  background: url(/assets/images/icon-radio.png) no-repeat;
+  background: url(../images/icon-radio.png) no-repeat;
 }
 input[type="radio"]:disabled:checked:before {
-  background: url(/assets/images/icon-radio-disabled.png) no-repeat;
+  background: url(../images/icon-radio-disabled.png) no-repeat;
 }
 input[type="checkbox"]:disabled:checked:before {
-  background: url(/assets/images/icon-checked-disabled.png) no-repeat center center;
+  background: url(../images/icon-checked-disabled.png) no-repeat center center;
 }
 .tnctext {
   position: relative;
@@ -558,7 +557,7 @@ input[type="checkbox"]:disabled:checked:before {
 }
 .ibox-title h5.filter-heading {
   padding: 0 30px 0 24px;
-  background: url(/assets/images/icon-filter.png) no-repeat;
+  background: url(../images/icon-filter.png) no-repeat;
 }
 .ibox-content-inner, .ibox-content-inner-static {
   /* padding: 14px 6px; */
@@ -808,7 +807,7 @@ input[type="checkbox"]:disabled:checked:before {
   clear: both;
   text-align: left;
   font-weight: 600;
-  background: url(/assets/images/icon-error-img.png) no-repeat 10px;
+  background: url(../images/icon-error-img.png) no-repeat 10px;
   margin-top: 2px;
 }
 .icon-reload {
@@ -1095,7 +1094,7 @@ select.form-control {
   /* font-weight:600; */
 }
 select.form-control {
-  background: url(/assets/images/icon-downarrow.svg) no-repeat 94%;
+  background: url(../images/icon-downarrow.svg) no-repeat 94%;
   content: '';
   background-size: 13px;    
   font-weight: 600;
@@ -3482,7 +3481,7 @@ padding: 10px 0;
 align-items: center;
 }
 select.form-control {
-background: url(/assets/images/icon-downarrow.svg) no-repeat 94% 12px;
+background: url(../images/icon-downarrow.svg) no-repeat 94% 12px;
 content: "";
 background-size: 13px;
 }
